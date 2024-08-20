@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(100deg, #bff1ea, #a1d7ec);
+    color: #1a1818;
+    margin: 20px;
+    margin-top: 15px;
+ /*   display: flex; */
+    justify-content: left;
+    align-items: center;
+    height: 150vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(191, 245, 213, 0.8);
+    padding: 75px;
+    border-radius: 16px;
+    box-shadow: 0px 15px 20px rgba(110, 158, 230, 0.8); 
+    backdrop-filter: blur(15px); 
+    max-width: 400px;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #080808;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.label{
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #080808;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#cajanumero {
+    
+    width: 80px; /* Aumenta el ancho del input */
+    height: 20px; /* Aumenta la altura del input */
+    font-size: 15px; /* Aumenta el tamaño del texto dentro del input */
+    padding: 8px; /* Aumenta el espacio dentro del input */
+}
+
+
+.mainBtn{
+ 
+    gap: 25px;
+
+}
+.mainSpan{
+    flex-direction: column;
+    margin-top: 25px;
+    
+}
+
+.span{
+    font-size: 1.5em;
+    text-align: center;
+    
+
+    /* margin-bottom: 15px; */
+    color: #050505;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.btncomprobar{
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #3bf2ff;
+    color: #333;
+    font-size: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 25px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+.btncomprobar:hover {
+    background-color: #536fee;
+    color: #fff;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.8);
+    transform: translateY(-1px); 
+}
+
+.btnnuevo{
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #07c5d3;
+    color: #333;
+    font-size: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 25px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+.btnnuevo:hover {
+    background-color: #1237dd;
+    color: #fff;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.8);
+    transform: translateY(-1px); 
+}
